@@ -4,6 +4,7 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
+/*
 console.log('"Hello World!"');
 console.log('Hello, JavaScript.');
 console.log(2001);
@@ -17,28 +18,36 @@ console.log(Number("three"));
 console.log(Number('3 3'));
 console.log(Number('33'));
 console.log(Number('3'));
-
-
 let day = "Thursday";
 day = 32.5;
 day = 19;
 console.log(day);
-
 let a_number = 2 ** 2 ** 3 * 3;
 console.log(a_number);
-
 console.log(1 + 5 % 3);
-
 console.log(16 - 2 * 5 / 3 + 1);
+console.log(5 % 5);
+*/
 
 
 const input = require('readline-sync');
 
-let info = input.question("Please enter your age: ");
-//The user enters 25.
+let userinput = input.question("Please enter your age: ");
+//wait for user input
+userinput = Number(userinput);
 
-console.log(typeof info);
+if (isNaN(userinput)) {
+   console.log("oops! that's not a number.");
+} else console.log(`wow! ${userinput}? you're old!`);
 
+
+/*
+if (typeof userinput === 'string') {
+   console.log("oops! that's not a number.");
+} else {
+   console.log(`wow! ${userinput}? you're old!`);
+}
+*/
 
 
 /*  
