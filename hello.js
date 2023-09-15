@@ -63,7 +63,9 @@ if (isNaN(userinput)) {
       console.log(`wow! ${userinput}? you're old!`); 
    } else if (userinput > 30) { 
       console.log(`you're getting pretty old!`); 
-   } else console.log(`you're still young.`); 
+   } else if (userinput < 18) { 
+      console.log(`parental supervision advised.`); 
+   }
 }
 
 /*
