@@ -75,3 +75,7 @@ if (typeof userinput === 'string') {
    console.log(`wow! ${userinput}? you're old!`);
 }
 */
+
+// let myString = "Java   Script";
+// console.log(myString.slice(0,1) + myString.slice(myString.indexOf("S") ).slice(0,1) );
+// console.log(myString.slice(0,1) + myString.slice(4,5) );
