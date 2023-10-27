@@ -48,7 +48,7 @@ console.log(Boolean('LaunchCode'));
 */
 
 
-const input = require('readline-sync');
+/* const input = require('readline-sync');
 
 let userinput = input.question("Please enter your age: ");
 //wait for user input
@@ -66,7 +66,7 @@ if (isNaN(userinput)) {
    } else if (userinput < 18) { 
       console.log(`parental supervision advised.`); 
    }
-}
+} */
 
 /*
 if (typeof userinput === 'string') {
@@ -79,3 +79,10 @@ if (typeof userinput === 'string') {
 // let myString = "Java   Script";
 // console.log(myString.slice(0,1) + myString.slice(myString.indexOf("S") ).slice(0,1) );
 // console.log(myString.slice(0,1) + myString.slice(4,5) );
+
+
+
+let num = 38532757432;
+console.log(typeof(num));
+console.log(typeof num);
+console.log(num.typeof);
