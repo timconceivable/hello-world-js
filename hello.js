@@ -83,6 +83,6 @@ if (typeof userinput === 'string') {
 
 
 let num = 38532757432;
-console.log(typeof(num));
+console.log(typeof(parseInt("hello")));
 console.log(typeof num);
 console.log(num.typeof);
